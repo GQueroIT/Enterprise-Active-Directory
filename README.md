@@ -79,7 +79,11 @@ The following stages have been completed:
 
 ### \- \[Step 11 — Windows Client Installation](./documents/11-windows-client-installation.md)
 
-### \- \[Step 12 — Domain Users and Security Groups](./documents/step-12-domain-users-and-groups.md)Configuration
+### \- \[Step 12 — Domain Users and Security Groups](./documents/12-domain-users-and-groups.md)
+
+
+
+### Configuration
 
 * [IP Addressing Plan](./configs/00-ip-addressing-plan.md)
 * [Hostname Plan](./configs/01-hostname-plan.md)
