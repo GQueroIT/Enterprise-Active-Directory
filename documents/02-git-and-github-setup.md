@@ -1,18 +1,74 @@
-# Step 02 - Git and GitHub Setup
+\# Step 02 - Git and GitHub Repository Setup
 
-## Objective
-Set up the Git workflow for the ActiveDirectory-Lab repository and connect the local project to GitHub so changes can be tracked and pushed consistently.
 
-## What I Completed
-- Verified the local repository path and structure
-- Confirmed Git was working in the project folder
-- Connected the local repository to the GitHub remote
-- Verified the remote configuration
-- Used the standard add, commit, pull, and push workflow for the lab
 
-## Outcome
-The Active Directory lab repository was connected to GitHub and ready for a structured version-control workflow as the project continued.
+---
 
-## Evidence
-See:
-- screenshots/step-02/
+
+
+\## Objective
+
+
+
+In this step, I configured Git locally and connected my local environment to the GitHub repository. The goal was to establish version control for the lab and ensure all progress could be tracked, committed, and pushed consistently.
+
+
+
+---
+
+
+
+\## Technologies Used
+
+
+
+\- Git  
+
+\- GitHub  
+
+\- PowerShell  
+
+\- Visual Studio Code  
+
+
+
+---
+
+
+
+\## Key Concepts
+
+
+
+\- Git Initialization  
+
+\- Repository Cloning  
+
+\- Staging and Committing  
+
+\- Remote Repository Management  
+
+\- Version Control Workflow  
+
+
+
+---
+
+
+
+\## Configuration / Implementation
+
+
+
+\### 1. Cloned GitHub Repository
+
+
+
+I cloned the ActiveDirectory-Lab repository from GitHub to my local machine using:
+
+
+
+```powershell
+
+git clone https://github.com/GQueroIT/ActiveDirectory-Lab.git
+
