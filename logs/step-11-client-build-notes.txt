@@ -1,0 +1,9 @@
+Step 11 - Windows Client Build Notes
+
+- Windows 10 client VM installed successfully in VirtualBox
+- Storage and installation screens completed successfully
+- Keyboard layout configured during setup
+- Network-limited setup path used for local account creation
+- Local account created successfully
+- Reached Windows desktop successfully
+- Client is now ready for rename to CLIENT01 and domain preparation

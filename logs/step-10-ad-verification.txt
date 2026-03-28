@@ -1,0 +1,14 @@
+Step 10 - AD Verification
+
+- Verified Active Directory Users and Computers opened successfully
+- Verified relentixtest.local domain is present
+- Verified Organizational Units exist under the domain root:
+  - IT
+  - HR
+  - Servers
+  - Service Accounts
+  - Workstations
+- Verified gquero account appears in the IT OU
+- Verified DNS tools opened successfully
+- Verified DNS zone for relentixtest.local
+- Completed final AD validation before moving to client setup
