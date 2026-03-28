@@ -1,16 +1,17 @@
 # Step 02 - Git and GitHub Setup
 
 ## Objective
-Connect the local repository to GitHub and confirm the standard Git workflow for the lab.
+Set up the Git workflow for the ActiveDirectory-Lab repository and connect the local project to GitHub so changes can be tracked and pushed consistently.
 
 ## What I Completed
-- Initialized or verified the local Git repository
-- Connected the local repo to the GitHub remote
-- Verified remote configuration
-- Performed the first push workflow for the lab repository
+- Verified the local repository path and structure
+- Confirmed Git was working in the project folder
+- Connected the local repository to the GitHub remote
+- Verified the remote configuration
+- Used the standard add, commit, pull, and push workflow for the lab
 
 ## Outcome
-The repository is now tracked locally and connected to GitHub so future lab work can be committed and pushed in a structured way.
+The Active Directory lab repository was connected to GitHub and ready for a structured version-control workflow as the project continued.
 
 ## Evidence
 See:

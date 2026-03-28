@@ -1,19 +1,19 @@
 # Step 11 - Windows Client Installation
 
 ## Objective
-Install the Windows 10 client VM that will later be prepared for domain join.
+Build the Windows 10 client machine to prepare for domain joining.
 
 ## What I Completed
-- Created and booted the Windows 10 client VM
-- Completed the Windows installation flow
-- Worked through setup screens including keyboard and account setup
-- Reached the Windows desktop successfully
-- Prepared the client for the next phase of rename and network/domain configuration
+- Created Windows 10 VM in VirtualBox
+- Completed installation process
+- Configured initial setup
+- Created local user account
+- Reached desktop successfully
 
 ## Outcome
-The Windows 10 client build completed successfully and is ready for workstation configuration.
+The client machine was successfully built and is ready to be joined to the domain.
 
 ## Evidence
 See:
-- screenshots/step-11/
 - logs/step-11-client-build-notes.txt
+- screenshots/step-11/

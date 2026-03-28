@@ -1,15 +1,16 @@
 # Step 03 - VirtualBox and Lab Preparation
 
 ## Objective
-Prepare the local environment for the Active Directory lab by confirming VirtualBox readiness and required setup dependencies.
+Prepare the virtualization environment for the Active Directory lab by installing VirtualBox and ensuring the system is ready to host the domain controller.
 
 ## What I Completed
-- Verified the virtualization environment
-- Prepared the local lab workspace
-- Confirmed the supporting toolchain for the VM build process
+- Installed and configured Oracle VirtualBox
+- Verified virtualization support on the host machine
+- Prepared ISO files for Windows Server installation
+- Confirmed system resources were sufficient for VM deployment
 
 ## Outcome
-The host system was ready to begin the virtual machine creation workflow for the Windows Server domain controller.
+The lab environment was fully prepared to begin building the domain controller.
 
 ## Evidence
 See:

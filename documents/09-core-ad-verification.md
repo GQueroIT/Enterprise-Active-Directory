@@ -1,17 +1,16 @@
 # Step 09 - Core Active Directory Verification
 
 ## Objective
-Validate the initial Active Directory environment after the admin account and OU structure were created.
+Confirm that all core Active Directory components are functioning correctly.
 
 ## What I Completed
-- Verified AD DS was running
-- Opened Active Directory Users and Computers
-- Verified the DNS zone
-- Confirmed the gquero admin account and membership
-- Confirmed the OU structure was present
+- Verified OU structure exists
+- Confirmed user accounts are properly placed
+- Verified domain services are running
+- Checked DNS functionality
 
 ## Outcome
-The core Active Directory environment was validated and ready for final review before client deployment.
+Core Active Directory functionality was confirmed stable and ready for final validation.
 
 ## Evidence
 See:

@@ -1,16 +1,16 @@
-# Step 07 - Post-Promotion Validation
+# Step 07 - Post Promotion Validation
 
 ## Objective
-Confirm that the new domain controller is functioning correctly after promotion.
+Verify that Active Directory services and domain functionality are working correctly after promotion.
 
 ## What I Completed
-- Logged into the promoted domain controller
-- Verified core Active Directory functionality
-- Confirmed domain services were available after restart
-- Checked the environment after the server promotion completed
+- Verified domain login functionality
+- Opened Active Directory Users and Computers
+- Confirmed domain structure is visible
+- Verified DNS configuration
 
 ## Outcome
-The relentixtest.local environment was operational and ready for object creation and organizational setup.
+The domain controller was validated and confirmed operational.
 
 ## Evidence
 See:
