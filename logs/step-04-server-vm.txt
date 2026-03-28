@@ -1,0 +1,6 @@
+Step 04 - Windows Server VM Creation
+
+- Created Windows Server virtual machine
+- Allocated CPU, RAM, and storage
+- Attached ISO and completed installation
+- Verified successful login

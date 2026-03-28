@@ -1,0 +1,10 @@
+Step 01 - Repo Setup
+
+- Created ActiveDirectory-Lab repository
+- Initialized folder structure:
+  - configs
+  - documents
+  - logs
+  - screenshots
+- Created step-based screenshot directories
+- Prepared repository for structured lab documentation

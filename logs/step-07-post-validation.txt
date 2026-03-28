@@ -1,0 +1,6 @@
+Step 07 - Post Promotion Validation
+
+- Verified domain login
+- Opened AD Users and Computers
+- Confirmed domain visibility
+- Verified DNS configuration

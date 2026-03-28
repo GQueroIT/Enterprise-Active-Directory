@@ -1,0 +1,6 @@
+Step 09 - Core AD Verification
+
+- Verified OU structure exists
+- Confirmed user placement in IT OU
+- Verified domain services running
+- Confirmed DNS functionality

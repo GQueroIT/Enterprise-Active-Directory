@@ -1,0 +1,6 @@
+Step 06 - Active Directory Installation
+
+- Installed Active Directory Domain Services
+- Promoted server to domain controller
+- Created domain: relentixtest.local
+- Completed reboot after promotion

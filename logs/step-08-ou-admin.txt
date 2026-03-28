@@ -1,0 +1,11 @@
+Step 08 - OU and Admin Setup
+
+- Created Organizational Units:
+  - IT
+  - HR
+  - Servers
+  - Workstations
+  - Service Accounts
+- Created gquero domain admin account
+- Added account to Domain Admins group
+- Verified permissions

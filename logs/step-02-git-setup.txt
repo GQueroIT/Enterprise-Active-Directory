@@ -1,0 +1,7 @@
+Step 02 - Git and GitHub Setup
+
+- Verified Git installation
+- Connected local repository to GitHub
+- Verified remote origin
+- Used git add, commit, pull, and push workflow
+- Confirmed repository sync between local and GitHub

@@ -1,0 +1,6 @@
+Step 05 - Network Configuration
+
+- Configured NAT adapter
+- Configured Host-only adapter
+- Assigned static IP address
+- Verified network connectivity

@@ -1,0 +1,6 @@
+Step 03 - VirtualBox and Lab Preparation
+
+- Installed Oracle VirtualBox
+- Verified virtualization support
+- Downloaded Windows Server ISO
+- Prepared environment for VM creation
