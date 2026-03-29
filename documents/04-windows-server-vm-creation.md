@@ -1,232 +1,133 @@
-\# Step 04 - Windows Server Virtual Machine Creation
-
-
+# Step 04 - Windows Server Virtual Machine Creation
 
 ---
 
+## Objective
 
+In this step, I created the Windows Server virtual machine that will serve as the Domain Controller (DC01) for the Active Directory environment.
 
-\## Objective
-
-
-
-In this step, I created the Windows Server virtual machine that will serve as the Domain Controller (DC01) for the Active Directory environment. The goal was to establish the foundation for domain services within the lab.
-
-
+The goal was to establish the foundation for domain services within the lab.
 
 ---
 
+## Technologies Used
 
+Oracle VirtualBox
 
-\## Technologies Used
+Windows Server 2022 ISO
 
-
-
-\- Oracle VirtualBox  
-
-\- Windows Server 2022 ISO  
-
-\- Windows 11 (Host Machine)  
-
-
+Windows 11 (Host Machine)
 
 ---
 
+## Key Concepts
 
+Virtual Machine Creation
 
-\## Key Concepts
+Operating System Installation
 
+Resource Allocation
 
+Boot Configuration
 
-\- Virtual Machine Creation  
-
-\- Operating System Installation  
-
-\- Resource Allocation  
-
-\- Boot Configuration  
-
-\- Server Role Preparation  
-
-
+Server Role Preparation
 
 ---
 
+## Configuration / Implementation
 
+### 1. Created New Virtual Machine
 
-\## Configuration / Implementation
+I created a new virtual machine in VirtualBox and named it:
 
+DC01
 
-
-\### 1. Created New Virtual Machine
-
-
-
-I created a new virtual machine in VirtualBox configured for:
-
-
-
-\- Windows Server 2022  
-
-\- 64-bit architecture  
-
-
-
-This VM will act as the Domain Controller (DC01).
-
-
+This machine will later be promoted to a Domain Controller.
 
 ---
 
+### 2. Selected Operating System
 
+Configured the VM to use:
 
-\### 2. Allocated System Resources
+Windows Server 2022
 
-
-
-Configured the VM with appropriate resources:
-
-
-
-\- RAM allocation  
-
-\- CPU cores  
-
-\- Storage (Virtual Disk)  
-
-
-
-This ensures stable performance for Active Directory services.
-
-
+This ensures compatibility with Active Directory services.
 
 ---
 
+### 3. Allocated System Resources
 
+Configured system resources for the VM:
 
-\### 3. Attached Windows Server ISO
+RAM allocation
 
+CPU allocation
 
-
-Mounted the Windows Server ISO file to the virtual machine to begin installation.
-
-
-
-This allows the VM to boot into the Windows Server installation environment.
-
-
+These settings ensure stable performance during installation and operation.
 
 ---
 
+### 4. Created Virtual Hard Disk
 
+Configured a virtual hard disk for the VM.
 
-\### 4. Configured Network Adapters
-
-
-
-Set up dual network adapters:
-
-
-
-\- Adapter 1: NAT → internet access  
-
-\- Adapter 2: Host-Only → internal lab communication  
-
-
-
-This configuration enables controlled networking between lab machines.
-
-
+This provides storage for the operating system and future Active Directory data.
 
 ---
 
+### 5. Mounted Windows Server ISO
 
+Attached the Windows Server ISO file to the virtual machine.
 
-\### 5. Installed Windows Server
-
-
-
-Booted the VM and completed the Windows Server installation process:
-
-
-
-\- Selected OS version  
-
-\- Configured system settings  
-
-\- Set Administrator password  
-
-
+This allows the OS installation process to begin on boot.
 
 ---
 
+### 6. Installed Windows Server
 
+Booted the VM and completed the Windows Server installation process.
 
-\### 6. Completed Initial Server Setup
-
-
-
-After installation:
-
-
-
-\- Logged into the system  
-
-\- Verified basic system functionality  
-
-\- Confirmed OS was running properly  
-
-
+Configured basic system settings during installation.
 
 ---
 
+### 7. Verified Installation
 
+Confirmed that the operating system installed successfully.
 
-\## Validation / Verification
-
-
-
-\- Verified successful OS installation  
-
-\- Confirmed VM boots correctly  
-
-\- Validated network adapter configuration  
-
-\- Ensured system stability after login  
-
-
+Verified the system boots properly and is ready for configuration.
 
 ---
 
+## Validation / Verification
 
+Verified VM creation completed successfully
 
-\## Evidence
+Confirmed Windows Server installed without errors
 
+Verified system boots into the OS correctly
 
-
-Screenshots for this step are located in:
-
-
-
-`screenshots/step-04/`
-
-
+Confirmed VM is ready for network configuration
 
 ---
 
+## Evidence
 
+Screenshots for this step:
 
-\## Key Takeaways
-
-
-
-\- Proper VM configuration is critical for stable server performance  
-
-\- Network setup must be planned before domain configuration  
-
-\- The Domain Controller is the core of the Active Directory environment  
-
-
+screenshots/step-04/
 
 ---
 
+## Key Takeaways
+
+Creating a properly configured virtual machine is critical for lab stability
+
+Correct OS selection ensures compatibility with Active Directory
+
+Resource allocation impacts performance and usability
+
+This step establishes the foundation for all future domain configuration
+
+---
