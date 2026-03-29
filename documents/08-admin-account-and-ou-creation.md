@@ -1,246 +1,123 @@
-\# Step 08 - Administrative Account Creation and OU Structure
-
-
+# Step 08 - Administrative Account and OU Creation
 
 ---
 
+## Objective
 
+In this step, I created a dedicated administrative account and organized the Active Directory environment using Organizational Units (OUs).
 
-\## Objective
-
-
-
-In this step, I created a dedicated administrative account and organized the Active Directory structure using Organizational Units (OUs).
-
-
-
-This improves security, delegation, and overall directory organization.
-
-
+This improves security, delegation, and overall directory structure.
 
 ---
 
-
-
-\## Technologies Used
-
-
+## Technologies Used
 
 Windows Server 2022
 
-
-
 Active Directory Users and Computers (ADUC)
-
-
 
 ---
 
-
-
-\## Key Concepts
-
-
+## Key Concepts
 
 Organizational Units (OUs)
 
-
-
 Administrative Accounts
-
-
 
 Role-Based Access Control (RBAC)
 
-
-
 Directory Structure Organization
-
-
 
 Delegation of Control
 
-
-
 ---
 
+## Configuration / Implementation
 
+### 1. Open Active Directory Users and Computers
 
-\## Configuration / Implementation
-
-
-
-\### 1. Open Active Directory Users and Computers
-
-
-
-Launched:
-
-
+Opened:
 
 Active Directory Users and Computers (ADUC)
 
-
-
 ---
 
-
-
-\### 2. Create Organizational Units (OUs)
-
-
+### 2. Create Organizational Units (OUs)
 
 Created the following OUs under the domain:
 
-
-
 IT
-
-
 
 HR
 
-
-
 Workstations
-
-
 
 Servers
 
-
-
 Service Accounts
-
-
 
 ---
 
-
-
-\### 3. Create Administrative Account
-
-
+### 3. Create Administrative Account
 
 Navigated to the IT OU.
 
-
-
 Created a new user account:
-
-
 
 Username: gquero
 
+Configured a secure password
 
-
-Assigned a secure password
-
-
-
-Configured password settings
-
-
+Set appropriate password options
 
 ---
 
+### 4. Assign Administrative Privileges
 
-
-\### 4. Assign Administrative Privileges
-
-
-
-Added the user to the following group:
-
-
+Added the user to:
 
 Domain Admins
 
-
-
 ---
 
-
-
-\### 5. Verify Account Permissions
-
-
+### 5. Verify Administrative Access
 
 Opened Command Prompt and ran:
 
-
-
 whoami /groups
 
-
-
-Confirmed Domain Admins membership is applied
-
-
+Confirmed the account is part of the Domain Admins group
 
 ---
 
+## Validation / Verification
 
+Verified all OUs are visible in ADUC
 
-\## Validation / Verification
+Confirmed the administrative account exists in the IT OU
 
-
-
-Confirmed OU structure is visible in ADUC
-
-
-
-Verified administrative account exists in the IT OU
-
-
-
-Confirmed elevated privileges through group membership
-
-
+Verified Domain Admins group membership
 
 Successfully authenticated using the new admin account
 
-
-
 ---
 
-
-
-\## Evidence
-
-
+## Evidence
 
 Screenshots for this step:
 
-
-
 screenshots/step-08/
 
-
-
 ---
 
+## Key Takeaways
 
+OUs provide logical structure within Active Directory
 
-\## Key Takeaways
+Administrative accounts should be separate from default accounts
 
+Group membership controls permissions and access
 
-
-OUs provide structure and organization within Active Directory
-
-
-
-Administrative accounts should be separated from default accounts
-
-
-
-Group membership controls access and privileges
-
-
-
-Proper OU design supports scalability and delegation
-
-
+Proper OU design improves scalability and management
 
 ---
-
