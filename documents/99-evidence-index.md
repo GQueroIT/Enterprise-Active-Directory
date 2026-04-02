@@ -121,3 +121,12 @@ This file provides a structured reference to all screenshots, logs, and troubles
 - Log: ../logs/step-16-gpo-log.md  
 
 ---
+
+## Step 17 — Security GPO Hardening
+
+- Document: ./17-security-gpo-hardening.md  
+- Screenshots: ../screenshots/step-17-security/  
+- Troubleshooting: ../screenshots/troubleshooting/step-17-troubleshoot/  
+- Log: ../logs/step-17-security-log.md  
+
+---
