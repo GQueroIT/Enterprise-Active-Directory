@@ -130,3 +130,11 @@ This file provides a structured reference to all screenshots, logs, and troubles
 - Log: ../logs/step-17-security-log.md  
 
 ---
+
+## Step 18 — Auditing and Logging
+
+- Document: ./18-auditing-and-logging.md  
+- Screenshots: ../screenshots/step-18/  
+- Log: ../logs/step-18-auditing-log.md  
+
+---
