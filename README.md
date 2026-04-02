@@ -48,6 +48,11 @@ The lab is broken down by step to simulate a real deployment process:
 - [Step 14 - File Share Creation and Permission Configuration](./documents/14-file-share-and-permissions.md)
 - [Step 15 - AGDLP Permission Model Implementation](./documents/15-agdlp-permission-model.md)
 - [Step 16 - GPO Drive Mapping Implementation](./documents/16-gpo-drive-mapping.md)
+- [Step 17 - Security Policy Enforcement and Verification](./documents/17-security-gpo-hardening.md)  
+- [Step 18 - Advanced Security Configuration and Validation](./documents/18-auditing-and-logging.md)  
+- [Step 19 - File Access Auditing Implementation](./documents/19-file-access-auditing.md) 
+
+
 - [Evidence Index](./documents/99-evidence-index.md)
 
 ---
@@ -59,6 +64,21 @@ Core planning and reference files used throughout the build:
 - [IP Addressing Plan](./configs/00-ip-addressing-plan.md)
 - [Hostname Plan](./configs/01-hostname-plan.md)
 - [OU Structure](./configs/02-ou-structure.md)
+
+---
+
+## Security Implementation
+
+This lab includes multiple layers of security configuration to simulate a real enterprise environment:
+
+- Group Policy enforcement (password policy, account lockout)
+- Secure file share permissions using AGDLP methodology
+- Controlled drive mapping through Group Policy
+- Advanced Audit Policy configuration
+- File system auditing for user activity tracking
+- Event monitoring through Windows Security logs (Event ID 4663)
+
+These configurations provide visibility, control, and enforcement of access across the domain.
 
 ---
 
@@ -77,8 +97,11 @@ Issues encountered during the lab are documented here:
 
 - [Troubleshooting Index](./troubleshooting/README.md)
 - [Network Connectivity Issue](./troubleshooting/network-connectivity-issue.md)
+- [Stept 14- Access Denial File Share](./troubleshooting/step-14-troubleshooting.md)
 - [Step 15 - AGDLP Access Issue](./troubleshooting/step-15-agdlp-troubleshooting.md)
 - [Step 16 - GPO Drive Mapping Issue](./troubleshooting/step-16-gpo-troubleshooting.md)
+- [Step 17- Security GPO](./troubleshooting/step-17-security-gpo.md)
+- [Step 18- Auditing Troubleshooting](./troubleshooting/step-18-auditing-troubleshooting.md)
 
 ---
 
@@ -102,13 +125,32 @@ VirtualBox-based enterprise lab simulation
 
 ## Key Highlights
 
-- Implemented enterprise-level permission model (AGDLP)
-- Automated user environment using Group Policy
-- Troubleshot real-world GPO and access issues
-- Maintained structured documentation and lab consistency
+- Implemented enterprise-level permission model (AGDLP)  
+- Automated user environments using Group Policy  
+- Configured and validated domain-wide security policies  
+- Implemented file access auditing with event log validation  
+- Troubleshot real-world access and policy issues  
+- Maintained structured, professional documentation throughout 
+
+---
+
+## Lab Summary
+
+This project simulates a full enterprise Active Directory deployment from initial setup through advanced security and auditing.
+
+The environment includes:
+
+- Domain Controller and client systems  
+- Structured OU hierarchy  
+- User and group management  
+- Secure file sharing with role-based access control  
+- Group Policy-based automation  
+- Security enforcement and monitoring  
+
+This lab reflects practical, hands-on experience with enterprise identity management, access control, and system administration.
 
 ---
 
 ## Notes
 
-All major steps in this lab are documented with screenshots and validation to show a full working build and a clear progression from setup through domain integration.
+All major steps in this lab are documented with screenshots and validation to demonstrate a fully working environment and clear progression from deployment to security enforcement.
