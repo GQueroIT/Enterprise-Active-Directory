@@ -1,0 +1,56 @@
+Step 15 - AGDLP Validation Log
+--------------------------------
+
+Environment:
+- Domain Controller: DC01
+- Client Machine: CLIENT01
+- Domain: relentixtest.local
+
+Group Structure:
+
+Global Group:
+- GG_IT_Admins
+
+Domain Local Group:
+- DL_CompanyData_Modify
+
+Group Membership:
+
+- User gquero added to GG_IT_Admins
+- GG_IT_Admins nested inside DL_CompanyData_Modify
+
+Permissions:
+
+NTFS:
+- DL_CompanyData_Modify granted Modify access to C:\Shares\CompanyData
+
+Share:
+- DL_CompanyData_Modify granted Change and Read permissions
+
+Validation Performed:
+
+1. Group Membership Validation
+- Verified Global Group membership
+- Verified Domain Local Group nesting
+
+2. Share Access Validation (CLIENT01)
+- Successfully accessed \\DC01\CompanyData
+- Verified file visibility
+
+3. Write Test
+- Successfully created file: step-15-agdlp-test.txt
+
+PowerShell Commands Used:
+
+Get-ADGroupMember GG_IT_Admins
+Get-ADGroupMember DL_CompanyData_Modify
+Get-SmbShareAccess -Name CompanyData
+Get-Acl "C:\Shares\CompanyData"
+
+Result:
+- AGDLP model successfully implemented
+- Permissions correctly applied
+- Access confirmed from CLIENT01
+
+Notes:
+This step confirms proper enterprise-level permission design using group-based access control.
