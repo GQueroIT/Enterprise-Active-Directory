@@ -1,0 +1,47 @@
+Step 14 - Share Validation Log
+------------------------------
+
+Environment:
+- Domain Controller: DC01
+- Client Machine: CLIENT01
+- Domain: relentixtest.local
+
+Shared Folder Details:
+- Share Name: CompanyData
+- Folder Path: C:\Shares\CompanyData
+- UNC Path: \\DC01\CompanyData
+
+Permissions Configured:
+- Share Permissions:
+  IT_Admins - Change, Read
+
+- NTFS Permissions:
+  IT_Admins - Modify, Read & Execute, Write
+
+Validation Performed:
+
+1. Local Access Validation (DC01)
+- Successfully accessed \\DC01\CompanyData
+- Verified presence of test file: step-14-share-test.txt
+
+2. Client Access Validation (CLIENT01)
+- Successfully accessed \\DC01\CompanyData
+- Verified read access to shared folder
+- Verified file visibility
+
+3. Write Access Test (CLIENT01)
+- Successfully created file inside shared folder (if applicable)
+
+PowerShell Verification:
+
+Get-SmbShare -Name CompanyData
+Get-SmbShareAccess -Name CompanyData
+Get-Acl "C:\Shares\CompanyData" | Format-List
+
+Result:
+- Share is active and accessible across the domain
+- Permissions are functioning as expected
+- Client access confirmed
+
+Notes:
+This step confirms proper configuration of SMB sharing, NTFS permissions, and domain-based access control within the environment.
