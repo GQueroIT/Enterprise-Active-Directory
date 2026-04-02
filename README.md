@@ -109,17 +109,17 @@ Issues encountered during the lab are documented here:
 
 This lab demonstrates hands-on work in:
 
-Active Directory deployment  
-Domain Controller configuration  
-DNS setup and validation  
-OU design and directory organization  
-User and group management  
-AGDLP permission model implementation  
-NTFS and share permissions  
-Group Policy deployment (GPO)  
-Drive mapping automation  
-Troubleshooting access and policy issues  
-VirtualBox-based enterprise lab simulation  
+- Active Directory deployment  
+- Domain Controller configuration  
+- DNS setup and validation  
+- OU design and directory organization  
+- User and group management  
+- AGDLP permission model implementation  
+- NTFS and share permissions  
+- Group Policy deployment (GPO)  
+- Drive mapping automation  
+- Troubleshooting access and policy issues  
+- VirtualBox-based enterprise lab simulation  
 
 ---
 
