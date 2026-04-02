@@ -45,6 +45,9 @@ The lab is broken down by step to simulate a real deployment process:
 - [Step 11 - Windows Client Installation and Preparation](./documents/11-windows-client-installation-and-preparation.md)
 - [Step 12 - Domain Users and Security Groups Configuration](./documents/12-domain-users-and-groups.md)
 - [Step 13 - Domain Join and Client Validation](./documents/13-domain-join-and-client-validation.md)
+- [Step 14 - File Share Creation and Permission Configuration](./documents/14-file-share-and-permissions.md)
+- [Step 15 - AGDLP Permission Model Implementation](./documents/15-agdlp-permission-model.md)
+- [Step 16 - GPO Drive Mapping Implementation](./documents/16-gpo-drive-mapping.md)
 - [Evidence Index](./documents/99-evidence-index.md)
 
 ---
@@ -74,6 +77,8 @@ Issues encountered during the lab are documented here:
 
 - [Troubleshooting Index](./troubleshooting/README.md)
 - [Network Connectivity Issue](./troubleshooting/network-connectivity-issue.md)
+- [Step 15 - AGDLP Access Issue](./troubleshooting/step-15-agdlp-troubleshooting.md)
+- [Step 16 - GPO Drive Mapping Issue](./troubleshooting/step-16-gpo-troubleshooting.md)
 
 ---
 
@@ -81,21 +86,26 @@ Issues encountered during the lab are documented here:
 
 This lab demonstrates hands-on work in:
 
-Active Directory deployment
+Active Directory deployment  
+Domain Controller configuration  
+DNS setup and validation  
+OU design and directory organization  
+User and group management  
+AGDLP permission model implementation  
+NTFS and share permissions  
+Group Policy deployment (GPO)  
+Drive mapping automation  
+Troubleshooting access and policy issues  
+VirtualBox-based enterprise lab simulation  
 
-Domain Controller configuration
+---
 
-DNS setup and validation
+## Key Highlights
 
-OU design and directory organization
-
-Administrative account creation
-
-Windows client preparation and domain integration
-
-Troubleshooting and validation
-
-VirtualBox-based enterprise lab simulation
+- Implemented enterprise-level permission model (AGDLP)
+- Automated user environment using Group Policy
+- Troubleshot real-world GPO and access issues
+- Maintained structured documentation and lab consistency
 
 ---
 
