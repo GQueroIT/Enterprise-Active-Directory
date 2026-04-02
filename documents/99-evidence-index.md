@@ -138,3 +138,11 @@ This file provides a structured reference to all screenshots, logs, and troubles
 - Log: ../logs/step-18-auditing-log.md  
 
 ---
+
+## Step 19 — File Access Auditing
+
+- Document: ./19-file-access-auditing.md  
+- Screenshots: ../screenshots/step-19/  
+- Log: ../logs/step-19-file-access-log.md  
+
+---
