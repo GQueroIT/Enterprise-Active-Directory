@@ -164,3 +164,12 @@ This file provides a structured reference to all screenshots, logs, and troubles
 - Log: ../logs/step-21-helpdesk-validation-log.md  
 
 ---
+
+## Step 22 — Final Lab Validation
+
+- Document: ./step-22-final-lab-validation.md  
+- Screenshots: ../screenshots/step-22/  
+- Troubleshooting: ../troubleshooting/step-22-troubleshooting.md  
+- Log: ../logs/step-22-final-validation-log.md  
+
+---
