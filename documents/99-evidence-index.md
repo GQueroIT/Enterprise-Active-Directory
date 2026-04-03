@@ -146,3 +146,11 @@ This file provides a structured reference to all screenshots, logs, and troubles
 - Log: ../logs/step-19-file-access-log.md  
 
 ---
+
+## Step 20 — NTFS vs Share Permissions
+
+- Document: ./20-ntfs-vs-share-permissions.md  
+- Screenshots: ../screenshots/step-20/  
+- Log: ../logs/step-20-permissions-log.md  
+
+---
