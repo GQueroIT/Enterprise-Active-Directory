@@ -45,6 +45,18 @@ Every phase of the build is documented with logs, screenshots, and validation st
 
 ---
 
+## Infrastructure Planning (Configs)
+
+This project includes foundational planning documents that define the structure of the environment before deployment.
+
+- [IP Addressing Plan](./configs/00-ip-addressing-plan.md)
+- [Hostname Plan](./configs/01-hostname-plan.md)
+- [OU Structure Design](./configs/02-ou-structure.md)
+
+These documents represent the architectural decisions behind the environment, including network layout, system naming, and directory organization.
+
+---
+
 ## Repository Structure
 
 - **/documents** → Full lab documentation (step-by-step build)
