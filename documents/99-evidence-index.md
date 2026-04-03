@@ -155,3 +155,12 @@ This file provides a structured reference to all screenshots, logs, and troubles
 - Log: ../logs/step-20-permissions-log.md  
 
 ---
+
+## Step 21 — Help Desk Delegation Validation
+
+- Document: ./step-21-helpdesk-validation.md  
+- Screenshots: ../screenshots/step-21/  
+- Troubleshooting: ../troubleshooting/step-21-troubleshooting.md  
+- Log: ../logs/step-21-helpdesk-validation-log.md  
+
+---
