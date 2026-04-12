@@ -1,54 +1,85 @@
-# Enterprise Active Directory Infrastructure (AD Lab)
+# ActiveDirectory-Lab
 
-![Windows Server](https://img.shields.io/badge/Windows%20Server-2019-blue)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-AD%20DS-green)
-![VirtualBox](https://img.shields.io/badge/Virtualization-VirtualBox-orange)
-![PowerShell](https://img.shields.io/badge/Automation-PowerShell-yellow)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+Enterprise-style Active Directory lab focused on domain administration, user support, Group Policy, DNS troubleshooting, and structured technical documentation.
+
+![Project](https://img.shields.io/badge/Project-Active%20Directory-blue)
+![Focus](https://img.shields.io/badge/Focus-User%20Support%20%26%20Administration-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Windows%20Server-lightgrey)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
 ## What This Project Demonstrates
 
-This project demonstrates hands-on, real-world experience with:
+This project demonstrates practical skills relevant to IT Support, Help Desk, and junior Systems Administration roles, including:
 
-- Active Directory Domain Services (AD DS)
-- Domain Controller deployment and DNS integration
-- Organizational Unit (OU) design
-- User and group management
-- AGDLP permission model
-- NTFS and Share permissions
-- Group Policy deployment (GPO)
-- Drive mapping automation
-- Security policy enforcement
-- Advanced audit policy configuration
-- File access auditing (Event ID 4663)
-- Client-side administration using RSAT
-- Multi-layer troubleshooting (network, DNS, permissions, GPO)
-- Full end-to-end validation of an enterprise environment
+- Active Directory Domain Services (AD DS) deployment and configuration
+- User and group administration in a domain environment
+- Organizational Unit (OU) design for structured account management
+- Group Policy Object (GPO) implementation and validation
+- DNS troubleshooting and domain authentication support
+- Step-by-step troubleshooting and documentation discipline
 
 ---
 
-## Project Overview
+## Why This Project Matters
 
-This project represents a fully built and validated **enterprise Active Directory environment**.
+This lab goes beyond basic setup. It demonstrates the ability to build and support a Windows domain environment while working through issues that directly affect user access, authentication, and policy enforcement.
 
-The environment includes:
+The project reflects the kind of troubleshooting and system administration workflow used in real IT environments, especially in support roles where account access, login behavior, DNS resolution, and Group Policy are critical.
 
-- Domain Controller (DC01)
-- Windows Client (CLIENT01)
-- Structured OU hierarchy
-- Role-based access control (AGDLP)
-- Secure file sharing system
-- Group Policy automation
-- Security enforcement and auditing
+---
 
-Every phase is documented with:
+## Start Here
 
-- Step-by-step build documentation  
-- Logs and command validation  
-- Screenshots as proof of execution  
-- Real troubleshooting scenarios  
+If you are reviewing this project quickly, these sections provide the best overview:
+
+- [Lab Overview](./00-Lab-Overview/README.md)
+- [Active Directory Deployment](./06-Install-AD-DS/README.md)
+- [Create Domain Admin Account](./08-Create-Domain-Admin-User/README.md)
+- [OU Structure](./10-Create-OU-Structure/README.md)
+- [Group Policy Configuration](./16-Create-User-Logon-GPO/README.md)
+- [Troubleshooting](./21-Troubleshooting/README.md)
+
+---
+
+## Core Skills Demonstrated
+
+### Identity and User Administration
+- Created and managed domain users and security groups
+- Built Organizational Units (OUs) to organize administrative structure
+- Supported user account access through proper domain configuration
+
+### Group Policy and Access Control
+- Applied Group Policy Objects (GPOs) to control user settings and system behavior
+- Verified policy application and login behavior
+- Documented policy-based management steps clearly
+
+### DNS and Authentication Troubleshooting
+- Diagnosed DNS-related issues affecting domain connectivity and authentication
+- Verified domain controller discovery and domain login functionality
+- Restored access by correcting name resolution dependencies
+
+### Documentation and Validation
+- Captured screenshots and validation steps throughout the build
+- Organized implementation into structured step-by-step phases
+- Maintained a clean and professional project layout suitable for portfolio review
+
+---
+
+## Project Structure
+
+This repository is organized into step-based sections covering the full domain build process, validation, and troubleshooting.
+
+Key areas include:
+- Environment preparation
+- Windows Server installation and configuration
+- Active Directory deployment
+- Administrative account creation
+- OU structure setup
+- Group Policy configuration
+- Shared resource access
+- Troubleshooting and validation
 
 ---
 
@@ -63,6 +94,10 @@ The environment was designed before deployment using structured planning:
 These define the foundation of the environment, including network layout, naming conventions, and directory structure.
 
 ---
+
+## Full Lab Documentation
+
+Use the sections below to review the project from start to finish.
 
 ## Lab Build (Step-by-Step)
 
