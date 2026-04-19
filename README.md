@@ -118,40 +118,42 @@ These define network layout, naming conventions, and directory structure.
 
 Each phase reflects a real-world deployment process.
 
-### Core Setup
-- [Step 00 - Lab Overview](./documents/step-00-lab-overview.md)  
-- [Step 01 - Repository Setup](./documents/step-01-repo-setup.md)  
-- [Step 02 - Git Setup](./documents/step-02-git-setup.md)  
-- [Step 03 - VirtualBox Preparation](./documents/step-03-virtualbox-prep.md)  
-- [Step 04 - Windows Server Deployment](./documents/step-04-server-vm.md)  
-- [Step 05 - Network Configuration](./documents/step-05-network-static-ip.md)  
+ ### Core Setup
+- [Step 00 - Lab Overview](./documents/00-lab-overview.md)  
+- [Step 01 - Repository Setup](./documents/01-repo-and-screenshot-structure.md)  
+- [Step 02 - Git Setup](./documents/02-git-and-github-setup.md)  
+- [Step 03 - VirtualBox Preparation](./documents/03-virtualbox-and-lab-prep.md)  
+- [Step 04 - Windows Server Deployment](./documents/04-windows-server-vm-creation.md)  
+- [Step 05 - Network Configuration](./documents/05-network-configuration-and-ip.md)  
 
 ### Active Directory Deployment
-- [Step 06 - AD DS Installation](./documents/step-06-adds-install.md)  
-- [Step 07 - Domain Controller Promotion](./documents/step-07-post-validation.md)  
-- [Step 08 - OU and Admin Setup](./documents/step-08-ou-admin.md)  
-- [Step 09 - Core AD Verification](./documents/step-09-core-verification.md)  
-- [Step 10 - AD Validation](./documents/step-10-ad-verification.md)  
+- [Step 06 - AD DS Installation](./documents/06-adds-and-domain-promotion.md)  
+- [Step 07 - Domain Controller Promotion](./documents/07-post-promotion-validation.md)  
+- [Step 08 - OU and Admin Setup](./documents/08-admin-account-and-ou-creation.md)  
+- [Step 09 - Core AD Verification](./documents/09-core-ad-verification.md)  
+- [Step 10 - AD Validation](./documents/10-final-ad-validation.md)  
 
 ### Client Integration
-- [Step 11 - Windows Client Build](./documents/step-11-client-build-notes.md)  
-- [Step 12 - Users and Groups](./documents/step-12-domain-users-and-groups.md)  
-- [Step 13 - Domain Join](./documents/step-13-domain-join-and-client-validation.md)  
+- [Step 11 - Windows Client Build](./documents/11-windows-client-installation.md)  
+- [Step 12 - Users and Groups](./documents/12-domain-users-and-groups.md)  
+- [Step 13 - Domain Join](./documents/13-domain-join-and-client-validation.md)  
 
 ### Access Control & Permissions
-- [Step 14 - File Share Setup](./documents/step-14-share-validation.md)  
-- [Step 15 - AGDLP Implementation](./documents/step-15-agdlp-validation.md)  
-- [Step 16 - GPO Drive Mapping](./documents/step-16-gpo-log.md)  
+- [Step 14 - File Share Setup](./documents/14-shared-folder-creation-and-permissions.md)  
+- [Step 15 - AGDLP Implementation](./documents/15-agdlp-permission-model.md)  
+- [Step 16 - GPO Drive Mapping](./documents/16-gpo-drive-mapping.md)  
 
 ### Security & Auditing
-- [Step 17 - Security Policy Enforcement](./documents/step-17-security-log.md)  
-- [Step 18 - Advanced Auditing](./documents/step-18-auditing-log.md)  
-- [Step 19 - File Access Auditing](./documents/step-19-file-access-log.md)  
-- [Step 20 - Permission Validation](./documents/step-20-permissions-log.md)  
+- [Step 17 - Security Policy Enforcement](./documents/17-security-gpo-hardening.md)  
+- [Step 18 - Advanced Auditing](./documents/18-auditing-and-logging.md)  
+- [Step 19 - File Access Auditing](./documents/19-file-access-auditing.md)  
+- [Step 20 - Permission Validation](./documents/20-ntfs-vs-share-permissions.md)  
 
 ### Enterprise Operations Simulation
-- [Step 21 - Help Desk Delegation (RSAT)](./documents/step-21-helpdesk-validation.md)  
-- [Step 22 - Final Environment Validation](./documents/step-22-final-lab-validation.md)  
+- [Step 21 - Help Desk Delegation (RSAT)](./documents/21-helpdesk-validation.md)  
+  - Validation Evidence:
+    - [Detailed Logs](./documents/21-helpdesk-validation-log.md)  
+- [Step 22 - Final Environment Validation](./documents/22-final-lab-validation.md)  
 
 ---
 
