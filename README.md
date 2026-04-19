@@ -106,11 +106,9 @@ This project demonstrates practical skills relevant to IT Support, Help Desk, an
 
 ## Infrastructure Planning (Architecture)
 
-The environment was planned before deployment:
-
-- [IP Addressing Plan](./configs/00-ip-addressing-plan.md)  
-- [Hostname Plan](./configs/01-hostname-plan.md)  
-- [OU Structure Design](./configs/02-ou-structure.md)  
+- [IP Addressing Plan](./architecture/00-ip-addressing-plan.md)  
+- [Hostname Plan](./architecture/01-hostname-plan.md)  
+- [OU Structure Design](./architecture/02-ou-structure.md)  
 
 These define network layout, naming conventions, and directory structure.
 
